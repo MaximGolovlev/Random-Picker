@@ -11,7 +11,7 @@ import SwiftUI
 struct Random_PickerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
         }
     }
 }
