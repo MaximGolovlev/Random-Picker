@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B591FB662E5610FA005AC05C /* Random Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B591FB662E5610FA005AC05C /* Choosy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choosy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		B591FB672E5610FA005AC05C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B591FB662E5610FA005AC05C /* Random Picker.app */,
+				B591FB662E5610FA005AC05C /* Choosy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B591FB652E5610FA005AC05C /* Random Picker */ = {
+		B591FB652E5610FA005AC05C /* Choosy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B591FB742E5610FC005AC05C /* Build configuration list for PBXNativeTarget "Random Picker" */;
+			buildConfigurationList = B591FB742E5610FC005AC05C /* Build configuration list for PBXNativeTarget "Choosy" */;
 			buildPhases = (
 				B591FB622E5610FA005AC05C /* Sources */,
 				B591FB632E5610FA005AC05C /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				B591FB682E5610FA005AC05C /* Random Picker */,
 			);
-			name = "Random Picker";
+			name = Choosy;
 			packageProductDependencies = (
 			);
 			productName = "Random Picker";
-			productReference = B591FB662E5610FA005AC05C /* Random Picker.app */;
+			productReference = B591FB662E5610FA005AC05C /* Choosy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B591FB612E5610FA005AC05C /* Build configuration list for PBXProject "Random Picker" */;
+			buildConfigurationList = B591FB612E5610FA005AC05C /* Build configuration list for PBXProject "Choosy" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B591FB652E5610FA005AC05C /* Random Picker */,
+				B591FB652E5610FA005AC05C /* Choosy */,
 			);
 		};
 /* End PBXProject section */
@@ -251,7 +251,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Random Picker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/Random Picker/App/Preview Content\"";
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Random Picker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/Random Picker/App/Preview Content\"";
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B591FB612E5610FA005AC05C /* Build configuration list for PBXProject "Random Picker" */ = {
+		B591FB612E5610FA005AC05C /* Build configuration list for PBXProject "Choosy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B591FB722E5610FC005AC05C /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B591FB742E5610FC005AC05C /* Build configuration list for PBXNativeTarget "Random Picker" */ = {
+		B591FB742E5610FC005AC05C /* Build configuration list for PBXNativeTarget "Choosy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B591FB752E5610FC005AC05C /* Debug */,
