@@ -11,10 +11,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B55F61D12E624340009CDFE4 /* Exceptions for "Choosy" folder in "Choosy" target */ = {
+		B5FC587B2E630A600086CEA4 /* Exceptions for "Choosy" folder in "Choosy" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				"App/Choosy-Info.plist",
+				Info.plist,
 			);
 			target = B591FB652E5610FA005AC05C /* Choosy */;
 		};
@@ -24,7 +24,7 @@
 		B591FB682E5610FA005AC05C /* Choosy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B55F61D12E624340009CDFE4 /* Exceptions for "Choosy" folder in "Choosy" target */,
+				B5FC587B2E630A600086CEA4 /* Exceptions for "Choosy" folder in "Choosy" target */,
 			);
 			path = Choosy;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Choosy/App/Choosy-Info.plist";
+				INFOPLIST_FILE = Choosy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,7 +301,7 @@
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Choosy/App/Choosy-Info.plist";
+				INFOPLIST_FILE = Choosy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
